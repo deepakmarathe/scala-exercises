@@ -1,6 +1,6 @@
-package com.deepakm.scala.exercise.stdlib
+package com.deepakm.scala.exercise.stdlib.asserttests
 
-import com.deepakm.scala.exercises.stdlib.AdditionCommand
+import com.deepakm.scala.exercises.stdlib.asserttests.AdditionCommand
 import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers.{convertToAnyShouldWrapper, equal}
