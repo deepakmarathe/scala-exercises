@@ -6,6 +6,7 @@ import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers.{convertToAnyShouldWrapper, equal}
 import org.scalatestplus.junit.JUnitRunner
+import org.scalatest.matchers.must.Matchers.be
 
 @RunWith(classOf[JUnitRunner])
 class PointSuite extends AnyFunSuite {
@@ -31,13 +32,13 @@ class PointSuite extends AnyFunSuite {
     left + right should ===(additionCommand.add(left, right))
   }
 
-  //  test("should be") {
-  //    val left = 1
-  //    val right = 1
-  //    // cannot customize equality, so fastest to compile
-  //    left should be(right)
-  //    true should be(true)
-  //  }
+    test("should be") {
+      val left = 1
+      val right = 1
+      // cannot customize equality, so fastest to compile
+      left should be(right)
+      true should be(true)
+    }
 
   test("shouldEqual") {
     // can customize equality, no parentheses required
