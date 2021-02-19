@@ -1,2 +1,0 @@
-# scala-exercises
-Scala exercises
