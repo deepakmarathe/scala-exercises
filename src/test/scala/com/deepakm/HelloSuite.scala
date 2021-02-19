@@ -1,8 +1,7 @@
-package com.deepakm.scala.exercise.stdlib
+package com.deepakm
 
-import com.deepakm.scala.exercises.Hello
-import org.scalatest.funsuite.AnyFunSuite
 import org.junit.runner.RunWith
+import org.scalatest.funsuite.AnyFunSuite
 import org.scalatestplus.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])

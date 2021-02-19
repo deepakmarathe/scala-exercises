@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises
+package com.deepakm
 
 class Hello{
   def hello(): Boolean = {

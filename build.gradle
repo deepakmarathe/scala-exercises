@@ -8,6 +8,20 @@ repositories {
     jcenter()
 }
 
+// Customise the library jar
+tasks.named('jar') {
+    manifest {
+        attributes('Implementation-Title': project.name,
+                'Implementation-Version': project.version)
+    }
+}
+
+// Generating sources jar
+java {
+    withSourcesJar()
+}
+
+
 dependencies {
     implementation 'org.scala-lang:scala-library:2.13.3'
     implementation 'com.google.guava:guava:29.0-jre'

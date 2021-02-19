@@ -1,16 +1,16 @@
-#Scala-Exercises
+# Scala-Exercises
 
-##Requirements
-###java 
-###scala 
-###intellij idea 
+### Requirements
+#### Java 
+#### Scala 
+#### Intellij Idea 
 
-#package 
+### Package 
 ```
 sbt package
 ```
 
-#run
+### Execute, Run Program
 ```
 1. right click on object Hello and Run
 ```
@@ -21,4 +21,10 @@ OR
 OR
 ```
 3. ./run.sh
+```
+
+### References :
+```
+https://docs.gradle.org/current/samples/sample_building_scala_libraries.html
+
 ```

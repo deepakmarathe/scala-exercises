@@ -17,4 +17,4 @@ libraryDependencies ++= Seq(
 
 
 mainClass in Compile := Some("com.deepakm.scala.exercises.Hello")
-//mainClass in Compile := Some("com.deepakm.scala.exercises.stdlib.Asserts")
+//mainClass in Compile := Some("com.deepakm.scala.exercise.stdlib.stdlib.Asserts")
