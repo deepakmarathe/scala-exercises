@@ -19,7 +19,6 @@ class OptionsSuite extends AnyFunSuite {
 
   test("assertions") {
     someValue should be(Some("I am wrapped in something!"))
-
     emptyValue should be(None)
 
     val value1 = myOption.maybeItWillReturnSomething(true)
@@ -43,5 +42,32 @@ class OptionsSuite extends AnyFunSuite {
       case None => 0.0
     }
     value should be(20.0)
+
+    val noValue: Option[Double] = None
+    val value1 = noValue match {
+      case Some(v) => v
+      case None => 0.0
+    }
+    value1 should be(0.0)
+  }
+
+  test("map on option"){
+    val number: Option[Int] = Some(3)
+    val noNumber: Option[Int] = None
+    val result1 = number.map(_ * 1.5)
+    val result2 = noNumber.map(_ * 1.5)
+
+    result1 should be(Some(4.5))
+    result2 should be(None)
+  }
+
+  test("fold on option"){
+    val number: Option[Int] = Some(3)
+    val noNumber: Option[Int] = None
+    val result1 = number.fold(1)(_ * 3)
+    val result2 = noNumber.fold(1)(_ * 3)
+
+    result1 should be(9)
+    result2 should be(1)
   }
 }
