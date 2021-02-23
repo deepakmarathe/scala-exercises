@@ -24,4 +24,5 @@ class GreetingSuite extends AnyFunSuite {
     val z = Greeting
     x eq z should be(true)
   }
+
 }

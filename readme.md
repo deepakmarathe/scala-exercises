@@ -27,4 +27,6 @@ OR
 ```
 https://docs.gradle.org/current/samples/sample_building_scala_libraries.html
 
+https://docs.scala-lang.org/getting-started/intellij-track/testing-scala-in-intellij-with-scalatest.html
+
 ```
