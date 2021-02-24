@@ -97,4 +97,21 @@ class LambdasSuite extends AnyFunSuite {
 
     addWithSyntaxSugar(1).isInstanceOf[Function1[_, _]] should be(true)
   }
+
+  test("function taking another function as parameter. helps in composing functions.") {
+    def makeUpper(xs: List[String]) = xs map {
+      _.toUpperCase
+    }
+
+    def makeWhatEverYouLike(xs: List[String], sideEffect: String => String) = xs map sideEffect
+
+    makeUpper(List("abc", "xyz", "123")) should be(List("ABC", "XYZ", "123"))
+
+    makeWhatEverYouLike(List("ABC", "XYZ", "123"), x => x.toLowerCase) should be(List("abc", "xyz", "123"))
+
+    val myName = (name:String) => s"My name is $name"
+    makeWhatEverYouLike(List("John", "Mark"), myName) should be(List("My name is John", "My name is Mark"))
+
+    List("Scala", "Erlang", "Clojure") map (_.length) should be(List(5, 6, 7))
+  }
 }
