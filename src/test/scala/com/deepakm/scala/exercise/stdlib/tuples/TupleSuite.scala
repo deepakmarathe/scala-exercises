@@ -2,10 +2,9 @@ package com.deepakm.scala.exercise.stdlib.tuples
 
 import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.must.Matchers.be
 import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
 import org.scalatestplus.junit.JUnitRunner
-import org.scalatest.matchers.must.Matchers.be
-import org.scalatest.matchers.should.Matchers.{convertToAnyShouldWrapper, equal}
 
 import java.util.Date
 
