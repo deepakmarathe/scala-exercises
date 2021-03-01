@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.cats.moinoid
+package com.deepakm.scala.exercises.cats.monoid
 
 import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite
