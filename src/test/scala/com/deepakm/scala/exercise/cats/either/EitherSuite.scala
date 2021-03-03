@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.cats.either
+package com.deepakm.scala.exercise.cats.either
 
 import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite

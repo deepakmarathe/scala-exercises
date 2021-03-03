@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.cats.identity
+package com.deepakm.scala.exercise.cats.identity
 
 import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite

@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.cats.traverse
+package com.deepakm.scala.exercise.cats.traverse
 
 import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite

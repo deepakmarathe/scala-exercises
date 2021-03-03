@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.cats.foldable
+package com.deepakm.scala.exercise.cats.foldable
 
 import cats.{Foldable, Later, Now}
 import org.junit.runner.RunWith

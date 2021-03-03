@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.cats.functor
+package com.deepakm.scala.exercise.cats.functor
 
 import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite

@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.cats.monad
+package com.deepakm.scala.exercise.cats.monad
 
 object MonadInstances {
 

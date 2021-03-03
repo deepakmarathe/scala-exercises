@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.cats.validated
+package com.deepakm.scala.exercise.cats.validated
 
 import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite

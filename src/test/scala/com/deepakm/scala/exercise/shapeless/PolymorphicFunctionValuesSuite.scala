@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.shapeless
+package com.deepakm.scala.exercise.shapeless
 
 import cats.~>
 import org.junit.runner.RunWith
@@ -14,9 +14,8 @@ class PolymorphicFunctionValuesSuite extends AnyFunSuite {
     object choose extends (Seq ~> Option) {
       def apply[T](s: Seq[T]) = s.headOption
     }
-//
-    //println(choose(Seq(1, 2, 3)))
-//    choose(Seq(1, 2, 3)) should be(Some(1))
-//    choose(Seq('a', 'b', 'c')) should be(Some('a'))
+
+    choose(Seq(1, 2, 3)) should be(Some(1))
+    choose(Seq('a', 'b', 'c')) should be(Some('a'))
   }
 }

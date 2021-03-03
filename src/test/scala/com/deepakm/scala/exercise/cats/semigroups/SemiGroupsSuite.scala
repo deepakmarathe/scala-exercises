@@ -1,4 +1,4 @@
-package com.deepakm.scala.exercises.cats.semigroups
+package com.deepakm.scala.exercise.cats.semigroups
 
 import org.junit.runner.RunWith
 import org.scalatest.funsuite.AnyFunSuite
