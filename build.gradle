@@ -37,7 +37,7 @@ dependencies {
 
     'org.scala-exercises:definitions:0.6.7'
     'com.chuusai:shapeless:2.3.3'
-
+    'com.github.alexarchambault:scalacheck-shapeless_1.14:1.2.5'
 //    'org.typelevel:cats-core:2.0.0'
 //    "org.typelevel:cats-core:2.1.1"
 // https://mvnrepository.com/artifact/org.typelevel/cats-core

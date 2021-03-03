@@ -51,5 +51,6 @@ class PolymorphicFunctionValuesSuite extends AnyFunSuite {
     //    size("foo") should be()
     //    size((23, "foo")) should be()
     //    size(((23, "foo"), 13)) should be()
+
   }
 }
